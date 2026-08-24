@@ -47,4 +47,4 @@ pip install -r requirements.txt
 
 ## Model Provenance
 
-The COM-2 (XGBoost) model was produced by adding a save step to the end of Zheng & McKenna's own `ep_prediction_model.ipynb` and running it — their original notebook isn't redistributed here, only referenced above. The Random Forest comparison model is fitted independently in `reproduce_and_save_rf_baseline.py`, included here in full.
+The COM-2 (XGBoost) model was produced by adding a save step to the end of Zheng & McKenna's own `ep_prediction_model.ipynb` and running it, their original notebook isn't redistributed here, only referenced above. The Random Forest comparison model is fitted independently in `reproduce_and_save_rf_baseline.py`, included here in full.
