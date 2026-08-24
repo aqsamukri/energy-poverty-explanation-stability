@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 1. **Run the main experiment notebook**: `run_robustness_experiments.ipynb` loads the already-fitted models from `artifacts/` and produces the stability tables and figures.
 2. **Run the case study**: `household_case_study.py` generates the household-level SHAP comparison.
-3. No retraining or external data access required, `artifacts/` contains the exact fitted models behind every reported result.
+3. The artifacts/ directory contains the fitted models used for the reported robustness experiments, so the main experiments can be run without retraining the models.
 
 ## Key Features
 
