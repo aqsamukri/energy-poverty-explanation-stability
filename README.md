@@ -16,7 +16,6 @@ Everything beyond the reproduced baseline - the degradation framework, the stabi
 
 ```
 ├── artifacts/                          # Fitted models (XGBoost/COM-2 + Random Forest)
-├── results/                            # Experiment outputs: CSVs + figures
 ├── clean_data.csv                      # Processed dataset (from Zheng & McKenna)
 ├── degradation.py                      # Four data degradation mechanisms
 ├── experiment_utils.py                 # Seeding, bootstrap CIs, results logging
